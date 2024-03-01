@@ -1,6 +1,6 @@
 .desktop {
   display: flex;
-  height: 1159px;
+  height: 3221px;
   align-items: flex-start;
   gap: 10px;
   padding: 10px;
@@ -100,24 +100,26 @@
   line-height: normal;
 }
 
-.desktop .group-download-cv {
-  position: absolute;
-  width: 192px;
-  height: 49px;
-  top: 496px;
-  left: 98px;
-  background-color: #0056ff;
-  border-radius: 14px;
-}
-
 .desktop .overlap-group {
   position: relative;
   height: 49px;
   background-color: #0056ff;
   border-radius: 14px;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  transition: background-color 0.3s ease; /* Transition on background-color property */
 }
 
+.desktop .overlap-group:hover {
+  background-color: #003366; /* Change color on hover */
+}
+
+.desktop .overlap-group:active {
+  background-color: #001a33; /* Change color when button is clicked */
+}
+
+
 .desktop .text-wrapper-5 {
+  font-size: 16px;
   position: absolute;
   width: 120px;
   top: 6px;
@@ -125,7 +127,6 @@
   font-family: "DM Sans", Helvetica;
   font-weight: 700;
   color: #ffffff;
-  font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
 }
@@ -227,7 +228,7 @@
 .desktop .frame-2 {
   position: absolute;
   width: 1582px;
-  height: 544px;
+  height: 531px;
   top: 615px;
   left: 0;
   background-color: #4b70a7;
@@ -315,14 +316,20 @@
   left: 0;
 }
 
-.desktop .overlap-group-wrapper {
+
+
+.desktop .text-wrapper-8 {
   position: absolute;
-  width: 192px;
-  height: 49px;
-  top: 0;
-  left: 41px;
-  background-color: #0056ff;
-  border-radius: 14px;
+  width: 120px;
+  top: 6px;
+  left: 36px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .desktop .frame-3 {
@@ -336,8 +343,8 @@
 .desktop .vector-2 {
   position: absolute;
   width: 46px;
-  height: 36px;
-  top: 78px;
+  height: 60px;
+  top: 68px;
   left: 126px;
 }
 
@@ -374,21 +381,501 @@
   position: absolute;
   left: 0;
 }
-.desktop .home:hover .text-wrapper-6,
-.desktop .about:hover .text-wrapper-6 {
-  color: #5900ff; /* Change the color to your desired hover color */
+
+.desktop .frame-6 {
+  position: absolute;
+  width: 1582px;
+  height: 1245px;
+  top: 1146px;
+  left: 0;
+  background-color: #4b70a7;
+  border: 1px solid;
+  border-color: #0056ff;
+}
+
+.desktop .p {
+  position: absolute;
+  width: 406px;
+  height: 237px;
+  top: 857px;
+  left: 460px;
+  object-fit: cover;
+}
+
+.desktop .p-2 {
+  position: absolute;
+  width: 458px;
+  height: 237px;
+  top: 458px;
+  left: 840px;
+  object-fit: cover;
+}
+
+.desktop .p-3 {
+  position: absolute;
+  width: 406px;
+  height: 237px;
+  top: 458px;
+  left: 146px;
+  object-fit: cover;
+}
+
+.desktop .p-4 {
+  position: absolute;
+  width: 406px;
+  height: 237px;
+  top: 34px;
+  left: 866px;
+  object-fit: cover;
+}
+
+.desktop .p-5 {
+  position: absolute;
+  width: 406px;
+  height: 237px;
+  top: 34px;
+  left: 146px;
+  object-fit: cover;
+}
+
+.desktop .text-wrapper-9 {
+  position: absolute;
+  width: 310px;
+  top: 279px;
+  left: 194px;
+  font-family: "Kavoon", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-10 {
+  position: absolute;
+  width: 310px;
+  top: 703px;
+  left: 194px;
+  font-family: "Kavoon", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-11 {
+  position: absolute;
+  width: 310px;
+  top: 1102px;
+  left: 508px;
+  font-family: "Kavoon", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-12 {
+  position: absolute;
+  width: 384px;
+  top: 711px;
+  left: 888px;
+  font-family: "Kavoon", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-13 {
+  position: absolute;
+  width: 310px;
+  top: 279px;
+  left: 914px;
+  font-family: "Kavoon", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .source {
+  top: 1163px;
+  left: 674px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .source-code {
+  top: 764px;
+  left: 1106px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .overlap-wrapper {
+  top: 764px;
+  left: 349px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .source-2 {
+  top: 340px;
+  left: 1080px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .source-3 {
+  top: 340px;
+  left: 360px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .visit {
+  top: 1163px;
+  left: 460px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .overlap-group-2 {
+  position: relative;
+  height: 49px;
+  border-radius: 14px;
+}
+
+.desktop .rectangle {
+  position: relative;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+  cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+  transition: background-color 0.3s ease; /* Transition on background-color property */
+}
+
+.desktop .rectangle:hover {
+  background-color: #003366; /* Change color on hover */
+}
+
+.desktop .rectangle:active {
+  background-color: #001a33; /* Change color when button is clicked */
+}
+
+
+.desktop .div-wrapper {
+  top: 764px;
+  left: 840px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .visit-2 {
+  top: 764px;
+  left: 146px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .visit-3 {
+  top: 340px;
+  left: 866px;
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .visit-4 {
+  position: absolute;
+  width: 192px;
+  height: 49px;
+  top: 340px;
+  left: 146px;
+  background-color: #0056ff;
+  border-radius: 14px;
+}
+
+.desktop .text-wrapper-14 {
+  position: absolute;
+  width: 55px;
+  top: 33px;
+  left: 590px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 64px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-7 {
+  position: absolute;
+  width: 1582px;
+  height: 830px;
+  top: 2391px;
+  left: 0;
+  background-color: #0a1723;
+  border: 1px solid;
+  border-color: #ffffff;
+}
+
+.desktop .text-wrapper-15 {
+  position: absolute;
+  width: 350px;
+  top: 14px;
+  left: 545px;
+  font-family: "Kaushan Script", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .bx-map-svg {
+  position: absolute;
+  width: 85px;
+  height: 62px;
+  top: 455px;
+  left: 205px;
+}
+
+.desktop .bxl-gmail-svg {
+  position: absolute;
+  width: 85px;
+  height: 66px;
+  top: 273px;
+  left: 206px;
+}
+
+.desktop .bx-phone-call-svg {
+  position: absolute;
+  width: 85px;
+  height: 65px;
+  top: 93px;
+  left: 204px;
+}
+
+.desktop .text-wrapper-16 {
+  position: absolute;
+  width: 138px;
+  top: 106px;
+  left: 311px;
+  font-family: "Kaushan Script", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-17 {
+  position: absolute;
+  width: 280px;
+  top: 304px;
+  left: 311px;
+  font-family: "Kaushan Script", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-18 {
+  position: absolute;
+  width: 280px;
+  top: 475px;
+  left: 311px;
+  font-family: "Kaushan Script", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-8 {
+  position: absolute;
+  width: 602px;
+  height: 652px;
+  top: 110px;
+  left: 694px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.desktop .frame-9 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  position: absolute;
+  top: 19px;
+  left: 32px;
+}
+
+.desktop .input-label {
+  position: relative;
+  width: 119px;
+  height: 29px;
+  margin-top: -1px;
+  font-family: "Kantumruy", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.desktop .frame-10 input,
+.desktop .frame-10 textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.desktop .send-button {
+  position: absolute;
+  padding: 10px;
+  width: 210px;
+  height: 49px;
+  top: 546px;
+  left: 160px;
+  border: none;
+  color: #fff;
+  background-color: #0056ff;
+  border-radius: 14px;
   cursor: pointer;
-  /* Add any additional styles for the hover state */
+}
+
+.desktop .send-button:hover {
+  background-color: #003366;
+}
+
+.desktop .text-wrapper-19 {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  -webkit-text-stroke: 1px #0056ff;
+  font-family: "Kantumruy", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .text-wrapper-20 {
+  position: relative;
+  width: 162px;
+  height: 29px;
+  font-family: "Kantumruy", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.desktop .frame-11 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  position: absolute;
+  top: 184px;
+  left: 32px;
+}
+
+.desktop .frame-12 {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 29px;
+  position: absolute;
+  top: 355px;
+  left: 32px;
+}
+
+
+.desktop .download-CV {
+  font-size: 15px;
+  text-align: center;
+  position: absolute;
+  width: 120px;
+  top: 6px;
+  left: 36px;
+  font-family: "DM Sans", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  letter-spacing: 0;
+  line-height: normal;
 }
 
 .home-2,
-.frame-2 {
+.frame-2,
+.frame-6,
+.frame-7 {
   scroll-margin-top: 60px; /* Adjust as needed to account for fixed navigation */
 }
 
 .desktop .home:hover .text-wrapper-6,
+.desktop .works:hover .text-wrapper-6,
+.desktop .contacts:hover .text-wrapper-6,
 .desktop .about:hover .text-wrapper-6 {
-  color: #ffcc00;
+  color: #5900ff;
   cursor: pointer;
-  /* Add any additional styles for the hover state */
+  /* additional styles for the hover state */
 }
